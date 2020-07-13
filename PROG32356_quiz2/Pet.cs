@@ -1,15 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace PROG32356_quiz2 {
-    public class Pet {
-
+namespace quiz2 {
+    class Pet {
         public string Name { get; set; }
-        public int age { get; set; }
-        public double weight { get; set; }
-        public double height { get; set; }
-
-        public Pet() {
-        }
+        public int Age { get; set; }
+        public double Height { get; set; }
+        public double Weight { get; set; }
     }
-
 }
